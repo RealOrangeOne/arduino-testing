@@ -5,7 +5,9 @@ machine:
 dependencies:
   pre:
     - sudo apt-get install arduino arduino-core arduino-mk
-    - pip2.7 install ino
+    - git clone git://github.com/amperka/ino.git
+    - cd ino
+    - make install
 
 test:
   override:
