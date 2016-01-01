@@ -1,6 +1,5 @@
 dependencies:
   pre:
-    - sudo apt-get install arduino arduino-core arduino-mk
     - git clone git://github.com/amperka/ino.git && cd ino && sudo python2 setup.py install && cd -
 test:
   override:
