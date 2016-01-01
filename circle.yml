@@ -5,7 +5,7 @@ machine:
 dependencies:
   pre:
     - sudo apt-get install arduino arduino-core arduino-mk
-    - pip install ino
+    - pip2.7 install ino
 
 test:
   override:
