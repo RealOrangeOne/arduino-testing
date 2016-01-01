@@ -1,0 +1,12 @@
+machine:
+  python:
+    version: 3.5
+
+dependencies:
+  pre:
+    - sudo apt-get install arduino arduino-core arduino-mk
+    - pip install ino
+
+test:
+  override:
+    - ino build
